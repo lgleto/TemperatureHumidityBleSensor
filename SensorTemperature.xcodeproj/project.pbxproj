@@ -9,23 +9,29 @@
 /* Begin PBXBuildFile section */
 		6CA22F0C23B3E85C007ABDE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA22F0B23B3E85C007ABDE3 /* AppDelegate.swift */; };
 		6CA22F0E23B3E85C007ABDE3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA22F0D23B3E85C007ABDE3 /* SceneDelegate.swift */; };
-		6CA22F1023B3E85C007ABDE3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA22F0F23B3E85C007ABDE3 /* ViewController.swift */; };
 		6CA22F1323B3E85D007ABDE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CA22F1123B3E85D007ABDE3 /* Main.storyboard */; };
 		6CA22F1623B3E85D007ABDE3 /* SensorTemperature.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6CA22F1423B3E85D007ABDE3 /* SensorTemperature.xcdatamodeld */; };
 		6CA22F1823B3E863007ABDE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CA22F1723B3E863007ABDE3 /* Assets.xcassets */; };
 		6CA22F1B23B3E863007ABDE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CA22F1923B3E863007ABDE3 /* LaunchScreen.storyboard */; };
+		6CA22F2323B40C2C007ABDE3 /* BleSettingsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA22F2223B40C2C007ABDE3 /* BleSettingsTVC.swift */; };
+		6CA22F2623B40D33007ABDE3 /* BLEUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA22F2523B40D33007ABDE3 /* BLEUtility.m */; };
+		6CA22F2923B63419007ABDE3 /* TempTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA22F2823B63419007ABDE3 /* TempTVCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6CA22F0823B3E85C007ABDE3 /* SensorTemperature.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SensorTemperature.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CA22F0B23B3E85C007ABDE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6CA22F0D23B3E85C007ABDE3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6CA22F0F23B3E85C007ABDE3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6CA22F1223B3E85D007ABDE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6CA22F1523B3E85D007ABDE3 /* SensorTemperature.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SensorTemperature.xcdatamodel; sourceTree = "<group>"; };
 		6CA22F1723B3E863007ABDE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6CA22F1A23B3E863007ABDE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6CA22F1C23B3E863007ABDE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CA22F2223B40C2C007ABDE3 /* BleSettingsTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BleSettingsTVC.swift; sourceTree = "<group>"; };
+		6CA22F2423B40D32007ABDE3 /* SensorTemperature-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SensorTemperature-Bridging-Header.h"; sourceTree = "<group>"; };
+		6CA22F2523B40D33007ABDE3 /* BLEUtility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLEUtility.m; sourceTree = "<group>"; };
+		6CA22F2723B40D44007ABDE3 /* BLEUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLEUtility.h; sourceTree = "<group>"; };
+		6CA22F2823B63419007ABDE3 /* TempTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempTVCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +66,16 @@
 			children = (
 				6CA22F0B23B3E85C007ABDE3 /* AppDelegate.swift */,
 				6CA22F0D23B3E85C007ABDE3 /* SceneDelegate.swift */,
-				6CA22F0F23B3E85C007ABDE3 /* ViewController.swift */,
 				6CA22F1123B3E85D007ABDE3 /* Main.storyboard */,
+				6CA22F2823B63419007ABDE3 /* TempTVCell.swift */,
+				6CA22F2223B40C2C007ABDE3 /* BleSettingsTVC.swift */,
+				6CA22F2523B40D33007ABDE3 /* BLEUtility.m */,
+				6CA22F2723B40D44007ABDE3 /* BLEUtility.h */,
 				6CA22F1723B3E863007ABDE3 /* Assets.xcassets */,
 				6CA22F1923B3E863007ABDE3 /* LaunchScreen.storyboard */,
 				6CA22F1C23B3E863007ABDE3 /* Info.plist */,
 				6CA22F1423B3E85D007ABDE3 /* SensorTemperature.xcdatamodeld */,
+				6CA22F2423B40D32007ABDE3 /* SensorTemperature-Bridging-Header.h */,
 			);
 			path = SensorTemperature;
 			sourceTree = "<group>";
@@ -102,6 +112,7 @@
 				TargetAttributes = {
 					6CA22F0723B3E85C007ABDE3 = {
 						CreatedOnToolsVersion = 11.2.1;
+						LastSwiftMigration = 1120;
 					};
 				};
 			};
@@ -141,10 +152,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6CA22F1023B3E85C007ABDE3 /* ViewController.swift in Sources */,
+				6CA22F2623B40D33007ABDE3 /* BLEUtility.m in Sources */,
 				6CA22F0C23B3E85C007ABDE3 /* AppDelegate.swift in Sources */,
 				6CA22F1623B3E85D007ABDE3 /* SensorTemperature.xcdatamodeld in Sources */,
+				6CA22F2323B40C2C007ABDE3 /* BleSettingsTVC.swift in Sources */,
 				6CA22F0E23B3E85C007ABDE3 /* SceneDelegate.swift in Sources */,
+				6CA22F2923B63419007ABDE3 /* TempTVCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +301,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BH692B86TQ;
 				INFOPLIST_FILE = SensorTemperature/Info.plist;
@@ -297,6 +311,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = osga.utility.SensorTemperature;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SensorTemperature/SensorTemperature-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -306,6 +322,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BH692B86TQ;
 				INFOPLIST_FILE = SensorTemperature/Info.plist;
@@ -315,6 +332,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = osga.utility.SensorTemperature;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SensorTemperature/SensorTemperature-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
